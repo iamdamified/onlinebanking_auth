@@ -19,7 +19,7 @@ if not all([SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASSWORD]):
 # ✅ Safe conversion after validation
 SMTP_PORT = int(SMTP_PORT)
 
-SENDER_NAME = "Diplomatic Holding Bank Support"  # You can customize this
+SENDER_NAME = "DipHolding Bank Security Support"  # You can customize this
 
 def send_email(to_email: str, subject: str, body: str):
     msg = EmailMessage()
