@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-load_dotenv()   # 👈 MUST be before os.getenv is used
+load_dotenv()   # MUST be before os.getenv is used
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from app.database import engine, Base
