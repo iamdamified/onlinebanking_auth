@@ -26,3 +26,5 @@ vercel --prod
 
 - The API entrypoint is [api/index.py](api/index.py). Vercel routes all requests to this function via [vercel.json](vercel.json).
 - Local testing: `uvicorn app.main:app --reload`
+
+- live url: `https://onlinebank-auth.vercel.app/docs#/`
